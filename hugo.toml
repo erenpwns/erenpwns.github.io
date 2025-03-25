@@ -1,0 +1,32 @@
+baseURL = "https://erenpwns.github.io/"
+languageCode = "en-us"
+title = "erenpwns"
+theme = "PaperMod"
+pagerSize = 10
+
+[params]
+  env = "production"
+  title = "erenpwns"
+  description = "Hack The Box & CTF Writeups"
+  author = "erenpwns"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  defaultTheme = "dark"  # or "auto", "light"
+  hideFooter = false
+  displayFullLangName = true
+
+[params.homeInfoParams]
+  Title = "🧠 Hi, I'm Eren!"
+  Content = "Writeups, labs, CTFs & red team notes."
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 2
